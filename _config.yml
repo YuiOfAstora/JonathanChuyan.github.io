@@ -16,12 +16,10 @@
 title: JonathanChuyan's blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  "Blog site powered by Jekyll & Minimal Mistakes."
+twitter_username: JonathanChuyan
 github_username: JonathanChuyan
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -61,6 +59,7 @@ author:
   name   : "JonathanChuyan"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Days Gone"
+  locations : "China"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -100,6 +99,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
