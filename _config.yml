@@ -30,8 +30,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-header:
-  overlay_image: /assets/images/header.jpg
+excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 include:
   - _pages
 
@@ -86,7 +85,13 @@ footer:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/JonathanChuyan"
-
+      
+header:
+  overlay_image: /assets/images/header.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 
 defaults:
   # _posts
